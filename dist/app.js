@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var characterPosition = 0;
       if (text.indexOf(input) !== -1) {
         width = input.length * characterWidth;
-        characterPosition = text.indexOf(input) * characterWidth - 2;
+        characterPosition = text.indexOf(input) * characterWidth + 8;
         highlightElem.setAttribute('style', 'width:' + width + 'px; right:' + characterPosition + 'px;');
       } else {
         width = 0;
