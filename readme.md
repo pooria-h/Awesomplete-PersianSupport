@@ -1,4 +1,4 @@
-# Awesomeplete Farsi
+# Awesomplete farsi support
 
 Farsi and Arabic letters are two kinds: sticky and non-sticky, So auto-complete scripts like Awesomeplete don't work well with these languages.
 
