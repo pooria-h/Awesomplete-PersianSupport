@@ -7,7 +7,7 @@ We have more than one solution to fix this problem. But the most reasonable one 
 ## Usage
 1. Import [awesomplete.js](https://leaverou.github.io/awesomplete/)
 2. Then Copy or import `dist/app.js` and `dist/style.css` in your project by your way
-3. Change `dummyData` and `inputElem` to whatever you want
+3. Change `dummyData` and `inputElem` inside `dist/app.js` to whatever you want
 
 #### One more thing!
 Currently highlight element width is: `text.length * characterWidth`, And character width is: `font-size / 2`, Because character width is a fixed value by this way, Highlight element size is not very accurate. So please contribute if you find a better solution for calculating text size!
