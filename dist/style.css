@@ -1,0 +1,14 @@
+.awesomplete li {
+  position: relative;
+  font-size: 20px; /* characterWidth in JS will be font-size/2 */
+  letter-spacing: 0;
+}
+.awesomplete li .highlight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  background-color: yellow;
+  z-index: -1;
+}

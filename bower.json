@@ -1,0 +1,20 @@
+{
+  "name": "awesomplete-farsi",
+  "authors": [
+    "Pooria Han <poooriah@gmail.com>"
+  ],
+  "description": "Modified Awesomplete script to support Farsi and Arabic languages",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "awesomplete": "^1.1.1"
+  }
+}
